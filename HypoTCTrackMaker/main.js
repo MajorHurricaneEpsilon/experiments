@@ -43,7 +43,7 @@ var TrackMaker = (function(){
         mapImgs = {};
         
         Promise.all([
-            loadImg('resources/map_NW.jpg'),
+            loadImg('HypoMap/lol.png'),
             loadImg('resources/map_NE.jpg'),
             loadImg('resources/map_SW.jpg'),
             loadImg('resources/map_SE.jpg')
